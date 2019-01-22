@@ -1,31 +1,31 @@
 # CSI Hackathon Jan 2019
-This is a C++ based console application for the hackathon hosted by CSI at ChitkaraUniversity.
+This is a C++ based console application for the hackathon hosted by CSI at Chitkara University in Jan 2019. This is built by me (@rajatgupta1998), @adi199 and @ptiwari2701 .
 
 Technologies used for this console applet:
 C++ C CMake GNU make
 
-# Requirements:
-For Compilation from source:
-Windows 7/8/10 64 bit system.
-GCC 8.1 or higher installed.
-Some C/C++ IDE or a text editor like Atom.
+# Introduction
 
-How to run the prebuilt binary?
-Place it in your working directory.
-Run command prompt/powershell at the directory.
-Run it as:
- ```.\hack.exe```
- 
- 
+This entire platform is supposedly governed by a virtual government. It is divided into 3 sectors:
+
+1. Government
+2. Corporate(s)
+3. Startup(s)
+
+
+A corporate gives a challenge statement to the budding developers' startups and they solve them. The stakeholders monitor the 
+development activity and bid accordingly. The government governs the entire activity and can alter this entire database.
+This applet is capable of checking the development cycle and we might later add a feature to enable bidding from the investors.
+
+# How to use? 
+
+
+#### **Using our prebuilt binaries:**
+
+- ### Windows:
+**Note: You must have the latest build of Windows 10. Windows 7/8.1 aren't directly supported but they should work fine.**
+ Download ```hack.exe``` from our binaries folder and place it in your working  directory. 
+Open Command Prompt or Powershell in your system and navigat to the working folder.
+Run the binary as: ```.\hack.exe```
+
 # FAQ
-
-This entire platform is suppossedly governed by a virtual government. It is divided into 3 sectors:
-
-1. Govt
-2. Corporate
-3. Startups
-
-
-A Corporate gives a challenge statement to the budding developers and a startup solve them. The stakeholders monitor the 
-development activity and bid accordingly. The govt. governs the entire activity and alter the database. This applet is capable of checking the development cycle and we might later add a feature to enable bidding.
-
