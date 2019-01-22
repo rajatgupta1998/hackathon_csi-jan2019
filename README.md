@@ -4,7 +4,7 @@ This is a C++ based console application for the hackathon hosted by CSI at Chitk
 Technologies used for this console applet:
 C++ 
 
-Requirements:
+# Requirements:
 For Compilation from source:
 Windows 7/8/10 64 bit system.
 GCC 8.1 or higher installed.
