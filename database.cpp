@@ -274,60 +274,71 @@ const char rocket[] =
 
 int main()
 {
-  cout <<" ********************************************* \n"  ;
-cout <<"         #########   ########    ########      \n"  ;
-cout <<"       ###########   ##            ###         \n"  ;
-cout <<"      ####           ##            ###         \n"  ;
-cout <<"      ###            ########      ###         \n"  ;
-cout <<"      ####                 ##      ###         \n"  ;
-cout <<"      ############         ##      ###         \n"  ;
-cout <<"        ##########   ########    ########      \n"  ;
-cout << endl;
-cout << endl;
-cout << "     ##        ##   ############ ########## ##   # ########## ##########  ##     ## ######### ###      ##  \n"   ;
-cout << "     ##        ##   ##        ## ##         ##  #  ##      ##     ##      ##     ## ##     ## ## #     ##  \n"   ;
-cout << "     ##        ##   ##        ## ##         ## #   ##      ##     ##      ##     ## ##     ## ##  #    ##  \n"   ;
-cout << "     ##        ##   ############ ##         ###    ##########     ##      ##     ## ##     ## ##   #   ##  \n"   ;
-cout << "     ############   ##        ## ##         ###    ##      ##     ##      ######### ##     ## ##    #  ##  \n"   ;
-cout << "     ##        ##   ##        ## ##         ## #   ##      ##     ##      ##     ## ##     ## ##     # ##  \n"   ;
-cout << "     ##        ##   ##        ## ##         ##  #  ##      ##     ##      ##     ## ##     ## ##      ###  \n"   ;
-cout << "     ##        ##   ##        ## ########## ##   # ##      ##     ##      ##     ## ######### ##       ##  \n"   ;
-cout <<" **************************************************************************************************************** \n";
-sleep(1.8);
-for (int i = 0; i < 50; i ++) printf("\n"); // jump to bottom of console
-printf("%s", rocket);
-int j = 300000;
-for (int i = 0; i < 50; i ++) {
-    usleep(j); // move faster and faster,
-    j = (int)(j * 0.9); // so sleep less each time
-    printf("\n"); // move rocket a line upward
-}
-cout<<"\t\t\t\t\tPlease Wait While The Page Is Loading\n\n";
+    cout <<" ********************************************* \n"  ;
+    cout <<"         #########   ########    ########      \n"  ;
+    cout <<"       ###########   ##            ###         \n"  ;
+    cout <<"      ####           ##            ###         \n"  ;
+    cout <<"      ###            ########      ###         \n"  ;
+    cout <<"      ####                 ##      ###         \n"  ;
+    cout <<"      ############         ##      ###         \n"  ;
+    cout <<"        ##########   ########    ########      \n"  ;
 
-char a=177, b=219;
-cout<<"\t\t\t\t\t\t";
+    cout << endl;
+    cout << endl;
 
-for (int i=0;i<=15;i++)
-  cout<<a;
+    cout << "     ##        ##   ############ ########## ##   # ########## ##########  ##     ## ######### ###      ##  \n"   ;
+    cout << "     ##        ##   ##        ## ##         ##  #  ##      ##     ##      ##     ## ##     ## ## #     ##  \n"   ;
+    cout << "     ##        ##   ##        ## ##         ## #   ##      ##     ##      ##     ## ##     ## ##  #    ##  \n"   ;
+    cout << "     ##        ##   ############ ##         ###    ##########     ##      ##     ## ##     ## ##   #   ##  \n"   ;
+    cout << "     ############   ##        ## ##         ###    ##      ##     ##      ######### ##     ## ##    #  ##  \n"   ;
+    cout << "     ##        ##   ##        ## ##         ## #   ##      ##     ##      ##     ## ##     ## ##     # ##  \n"   ;
+    cout << "     ##        ##   ##        ## ##         ##  #  ##      ##     ##      ##     ## ##     ## ##      ###  \n"   ;
+    cout << "     ##        ##   ##        ## ########## ##   # ##      ##     ##      ##     ## ######### ##       ##  \n"   ;
+    cout <<" **************************************************************************************************************** \n";
 
-cout<<"\r";
-cout<<"\t\t\t\t\t\t";
 
-for (int i=0;i<=15;i++)
-{
-  cout<<b;
-  for (int j=0;j<=1e8;j++);
-}
-cout <<endl<<endl;
-system("cls");
-  Govt G;
-  Startup S;
-  Corporate C;
-  int no=0;
-  char decision = 'y';
-  while(decision=='y')
-  {
+    sleep(1.8);
 
+    for (int i = 0; i < 50; i ++) printf("\n"); // jump to bottom of console
+        printf("%s", rocket);
+
+    int j = 300000;
+
+    for (int i = 0; i < 50; i ++)
+    {
+        usleep(j); // move faster and faster,
+        j = (int)(j * 0.9); // so sleep less each time
+        printf("\n"); // move rocket a line upward
+    }
+
+    cout<<"\t\t\t\t\tPlease Wait While The Page Is Loading\n\n";
+
+    char a=177, b=219;
+    cout<<"\t\t\t\t\t\t";
+
+    for (int i=0;i<=15;i++)
+        cout<<a;
+
+    cout<<"\r";
+    cout<<"\t\t\t\t\t\t";
+
+    for (int i=0;i<=15;i++)
+    {
+        cout<<b;
+        for (int j=0;j<=1e8;j++);
+    }
+
+    cout <<endl<<endl;
+    system("cls");
+
+    Govt G;
+    Startup S;
+    Corporate C;
+
+    int no=0;
+    char decision = 'y';
+    while(decision=='y')
+    {
     cout<<"\t\t\t\t************************Choose sector***************************\t\t\t\t"<<endl<<endl<<"\t\t\t\t\t\t\t"<<"1)Government"<<endl<<endl<<"\t\t\t\t\t\t\t"<<"2)Corporate"<<endl<<endl<<"\t\t\t\t\t\t\t"<<"3)Startup"<<endl<<endl<<"\t\t\t\t\t\t\t"<<"Press 4 to exit"<<endl<<endl<<"\t\t\t\t\t\t\t---x---x---x---";
     cout<<endl;
     cin>>no;
@@ -338,14 +349,17 @@ system("cls");
     while(decision == 'y')
     {
       system("cls");
+
       switch(no)
       {
         case 1:while(decision == 'y')
                 {
                   system("cls");
+
                   while(decision=='y')
                   {
                     system("cls");
+
                     cout<<"Select operation :- "<<endl<<"1)Show all Startups "<<endl<<"2)Show all Corporates "<<endl<<"3)Show all ideas "<<endl<<"4)Show all challenges "<<endl<<"5)Add a Startup"<<endl<<"6)Add a Corporate "<<endl<<"7)Add a Stakeholder"<<endl<<"8)Enter 8 to exit"<<endl;
                     cin>>no;
                     if(no == 8)
@@ -359,41 +373,50 @@ system("cls");
                       cout<<"Do you want to continue(y/n) :- "<<endl;
                       cin>>decision;
                       break;
+
                       case 2:show_corporate();
                       //system("pause");
                       cout<<"DO you want to continue(y/n) :- ...."<<endl;
                       cin>>decision;
                       break;
+
                       case 3:show_ideas();
                       //system("pause");
                       cout<<"Do you want to continue(y/n) :- "<<endl;
                       cin>>decision;
                       break;
+
                       case 4:show_challenges();
                       //system("pause");
                       cout<<"Do you want to continue(y/n) :- "<<endl;
                       cin>>decision;
                       break;
+
                       case 5:G.get_startup();
                       cout<<"Do you want to continue(y/n) :- "<<endl;
                       cin>>decision;
                       break;
+
                       case 6:G.get_corporate();
                       cout<<"Do you want to continue(y/n) :- "<<endl;
                       cin>>decision;
                       break;
+
                       case 7:G.get_stakeholder();
                       cout<<"Do you want to continue(y/n) :- "<<endl;
                       cin>>decision;
                       break;
+
                       case 8:
                       break;
+
                       default:cout<<"Enter appropiate answer ... ";
                       break;
                     }
                   }
                 }
         break;
+
         case 2:while(decision=='y')
         {
           system("cls");
@@ -401,9 +424,11 @@ system("cls");
           while(decision=='y')
           {
             system("cls");
+
             cout<<"Choose operation :-"<<endl;
             cout<<"1)Show all Startups "<<endl<<"2)Show all challenges  "<<endl<<"3)Enter 3 to exit"<<endl;
             cin>>no;
+
             if(no==3)
             {
               decision='n';
@@ -415,28 +440,35 @@ system("cls");
               cout<<"Do you want to continue(y/n) :- "<<endl;
               cin>>decision;
               break;
+
               case 2:show_challenges();
               //system("pause");
               cout<<"Do you want to continue(y/n) :-"<<endl;
               cin>>decision;
               break;
+
               case 3:
               break;
+
               default:cout<<"Enter appropiate option ......"<<endl;
               break;
             }
           }
         }
         break;
+
         case 3:while(decision=='y')
         {
           system("cls");
+
           while(decision=='y')
           {
             system("cls");
+
             cout<<"Choose operation :-"<<endl;
             cout<<"1)show all challenges "<<endl<<"2)Show all ideas "<<endl<<"Enter 3 to exit "<<endl;
             cin>>no;
+
             if(no==3)
             {
               decision='n';
@@ -448,24 +480,29 @@ system("cls");
               cout<<"Do you want to continue(y/n) :- "<<endl;
               cin>>decision;
               break;
+
               case 2:show_ideas();
               //system("pause");
               cout<<"Do you want to continue(y/n) :-"<<endl;
               cin>>decision;
               break;
+
               case 3:
               break;
+
               default:cout<<"Choose appropiate option .... ";
               break;
             }
           }
         }
         break;
+
         default:cout<<"Please choose appropiate option ...."<<endl;
                 system("cls");
                 break;
       }
     }
   }
-  return 0;
+
+    return 0;
 }
