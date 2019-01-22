@@ -37,5 +37,5 @@ Compile ```database.cpp``` using gcc/mingW as
 
 (optional) Install CLion from JetBrains and build & run the project.
 
-#### Feedback and Licensing
+# Feedback and Licensing
 This is licensed under GPL v3. All feedback are welcome and you're free to create issues/pull requests on this repository.
