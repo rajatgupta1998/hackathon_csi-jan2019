@@ -2,7 +2,7 @@
 This is a C++ based console application for the hackathon hosted by CSI at ChitkaraUniversity.
 
 Technologies used for this console applet:
-C++ 
+C++ C CMake GNU make
 
 # Requirements:
 For Compilation from source:
