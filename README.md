@@ -17,6 +17,9 @@ A corporate gives a challenge statement to the budding developers' startups and 
 development activity and bid accordingly. The government governs the entire activity and can alter this entire database.
 This applet is capable of checking the development cycle and we might later add a feature to enable bidding from the investors.
 
+Our program writes to a **.CSV** file as it provides better database organization and a cleaner view in addition to sane manipulation of the data
+in the future. 
+
 # How to use? 
 #### **Using our prebuilt binaries:**
 
