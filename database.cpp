@@ -1,13 +1,17 @@
-#include<iostream>
-#include<stdio.h>
-#include<fstream>
-#include<sstream>
-#include<string>
-#include<iomanip>
+#include <iostream>
+#include <stdio.h>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <iomanip>
 #include <unistd.h>
 #include <stdlib.h>
-#include<vector>
-#include<time.h>
+#include <vector>
+#include <time.h>
+#include <cstdlib>
+#include <ctime>
+#include <ctime>
+
 using namespace std;
 
 class Govt{
