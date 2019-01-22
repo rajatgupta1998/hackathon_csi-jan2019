@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rajatgupta1998/Documents/Chitkara/csi_hackathon/database.cpp
+iostream
+-
+stdio.h
+-
+fstream
+-
+sstream
+-
+string
+-
+iomanip
+-
+unistd.h
+-
+stdlib.h
+-
+vector
+-
+time.h
+-
+

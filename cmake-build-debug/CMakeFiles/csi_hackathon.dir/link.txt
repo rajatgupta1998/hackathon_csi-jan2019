@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/csi_hackathon.dir/database.cpp.o  -o csi_hackathon 
