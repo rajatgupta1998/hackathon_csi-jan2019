@@ -349,7 +349,14 @@ int main()
     while(decision == 'y')
     {
       system("cls");
+      cout<<"\t\t\t\t************************Choose sector***************************\t\t\t\t"<<endl<<endl<<"\t\t\t\t\t\t\t"<<"1)Government"<<endl<<endl<<"\t\t\t\t\t\t\t"<<"2)Corporate"<<endl<<endl<<"\t\t\t\t\t\t\t"<<"3)Startup"<<endl<<endl<<"\t\t\t\t\t\t\t"<<"Press 4 to exit"<<endl<<endl<<"\t\t\t\t\t\t\t---x---x---x---";
+      cout<<endl;
+      cin>>no;
 
+      if(no==4)
+      {
+          decision='n';
+      }
       switch(no)
       {
         case 1:while(decision == 'y')
