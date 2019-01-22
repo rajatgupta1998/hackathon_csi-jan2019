@@ -28,3 +28,11 @@ Run the binary as: ```.\hack.exe```
 
 - ### Linux:
 Download the `hack` binary from the binaries folder and place it in your working folder. Open the terminal and run the binary in this way: ```./hack``` . If you get permission denied errors, run this: ```chmod +x hack```.
+
+#### Building from source:
+**You must have a 64 bit system**
+Setup GCC 8.x (Latest MingW-64 release if building on Windows).
+Compile ```database.cpp``` using gcc/mingW as
+```g++ database.cpp -o database``` and then run it just like a prebuilt binary OR just use your favourite IDE for C/C++.
+
+(optional) Install CLion from JetBrains and build & run the project.
